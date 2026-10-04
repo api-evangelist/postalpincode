@@ -33,13 +33,13 @@ x-category: "Tracking"
 x-tier: 3
 x-tier-reason: bulk-registered-from-public-apis
 tags:
-  - Tracking
   - Public APIs
+  - Postal
+  - Postal Codes
 apis:
   - name: PostalPinCode
     description: "API for getting Pincode details in India"
     humanURL: http://www.postalpincode.in/Api-Details
-    baseURL: http://www.postalpincode.in/Api-Details
     tags:
       - Tracking
     properties:
@@ -53,3 +53,5 @@ common:
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
+x-tags-removed:
+- Tracking
